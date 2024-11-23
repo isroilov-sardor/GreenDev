@@ -107,6 +107,9 @@ form span {
     align-items: center;
     justify-content: center;
 }
+.btn4:active{
+    transform: scale(0.95);
+}
 
 .wr-container {
     display: flex;
