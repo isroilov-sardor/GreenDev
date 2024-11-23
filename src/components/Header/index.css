@@ -1,0 +1,138 @@
+.header {
+    background-image: url(../../images/head-backImg.svg);
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+.head-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.head-top-same1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.head-site-name {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.head-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.head-items {
+    list-style: none;
+}
+
+.head-items a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.head-top-buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.btn1 {
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    background-color: transparent;
+    transition: 0.7s all;
+    cursor: pointer;
+    padding: 12px 32px;
+    border-radius: 40px;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: #000;
+
+}
+
+.btn2 {
+    cursor: pointer;
+    transition: 0.7s all;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    border-radius: 40px;
+    color: #000;
+    padding: 12px 32px;
+    border: none;
+}
+
+.btn2:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.head-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head-desc1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 80.64px;
+    color: #FFFFFF;
+}
+
+.head-desc2 {
+    margin-bottom: 24px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 80.64px;
+    color: #FFFFFF;
+}
+
+.head-title {
+    color: #8B8B8B;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+.btn3 {
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    color: #000;
+    background-color: #A8FF35;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s all;
+    margin-bottom: 100px;
+}
+.btn3:active{
+    transform:scale(0.95);
+}
+.head-bottom img{
+    cursor: pointer;
+}
