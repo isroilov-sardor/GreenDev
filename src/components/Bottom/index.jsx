@@ -14,20 +14,20 @@ function Bottom() {
             </div>
             <div className="botom-bot">
                 <div className="container bot-container">
-                    <div className="bot-same">
-                        <img className='bot-img' src={imgLogo} width={40} height={40} alt="Logo" />
-                        <div className="bot_logoName">GreenDev
-                        </div>
+                    <a className="bot-same" href="#">
+                    <img className='bot-img' src={imgLogo} width={40} height={40} alt="Logo" />
+                    <div className="bot_logoName">GreenDev
                     </div>
-                    <ul className="bot-links">
-                        <li className="bot-items"><a href="#">privacy Plicy</a></li>
-                        <li className="bot-items"><a href="#">Terms and Conditions</a></li>
-                        <li className="bot-items"><a href="#">Contact Us</a></li>
-                        <li className="bot-items"><a href="#">Careers</a></li>
-                    </ul>
-                </div>
+                </a>
+                <ul className="bot-links">
+                    <li className="bot-items"><a href="#">privacy Plicy</a></li>
+                    <li className="bot-items"><a href="#">Terms and Conditions</a></li>
+                    <li className="bot-items"><a href="#">Contact Us</a></li>
+                    <li className="bot-items"><a href="#">Careers</a></li>
+                </ul>
             </div>
         </div>
+        </div >
     )
 }
 
