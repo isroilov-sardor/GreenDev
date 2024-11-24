@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
+import Bottom from './components/Bottom';
 
 function App() {
   const [name, setName] = useState('');
@@ -147,6 +148,7 @@ function App() {
             </div>
           </div>
         </div>
+        <Bottom></Bottom>
       </div>
     </div>
   )

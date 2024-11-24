@@ -1,0 +1,93 @@
+.botom-top {
+    background-color: #A8FF35;
+    width: 100%;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.bot-desc {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 80.64px;
+    color: #000;
+}
+
+.bot-title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 80.64px;
+    color: #87D322;
+    margin-bottom: 40px;
+}
+
+.bot-btn {
+    padding: 16px 53px;
+    background-color: black;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    border: none;
+    border-radius: 40px;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.bot-btn:active {
+    transform: scale(0.95);
+}
+
+.botom-bot {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bot-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bot-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.bot-same {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bot-img {
+    transition: 1s all;
+}
+
+.bot-img:hover {
+    cursor: pointer;
+    transform: rotate(365deg);
+}
+
+.bot_logoName {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000;
+}
+
+.bot-items {
+    list-style: none;
+}
+
+.bot-items a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000;
+    text-decoration: none;
+}
+.bot-items a:hover{
+    text-decoration: underline;
+}
